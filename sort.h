@@ -34,6 +34,7 @@ typedef enum bool
 
 /*For easier coding*/
 void swaps_int(int *a, int *b);
+void swap_nodes(listint_t **h, listint_t **n1, listint_t *n2);
 
 /*Functions prototypes coded for in project*/
 void bubble_sort(int *array, size_t size);
